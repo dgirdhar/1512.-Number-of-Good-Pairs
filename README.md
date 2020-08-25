@@ -26,6 +26,11 @@ Results are same.
 Runtime: 4 ms, faster than 60.28% of C++ online submissions for Number of Good Pairs.
 Memory Usage: 7.5 MB, less than 39.55% of C++ online submissions for Number of Good Pairs.
 
+Version 4: 
+In this version, I'm taking advantage of constraint given i.e. value is less than 100 and got following results.
+Runtime: 0 ms, faster than 100.00% of C++ online submissions for Number of Good Pairs.
+Memory Usage: 7.3 MB, less than 77.87% of C++ online submissions for Number of Good Pairs. 
+
 -----------------------------
 
 - Dhiraj Girdhar
