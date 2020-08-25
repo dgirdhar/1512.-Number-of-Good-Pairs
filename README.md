@@ -18,6 +18,14 @@ Runtime: 4 ms, faster than 60.28% of C++ online submissions for Number of Good P
 Memory Usage: 7.6 MB, less than 9.73% of C++ online submissions for Number of Good Pairs.
 
 It seems like C++ implementation of hash map is not very good.
+
+Version 3: 
+This time I have used normal map and complexity is not O(nlgn).
+
+Results are same.
+Runtime: 4 ms, faster than 60.28% of C++ online submissions for Number of Good Pairs.
+Memory Usage: 7.5 MB, less than 39.55% of C++ online submissions for Number of Good Pairs.
+
 -----------------------------
 
 - Dhiraj Girdhar
