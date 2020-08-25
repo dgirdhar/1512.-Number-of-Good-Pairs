@@ -2,19 +2,12 @@ class Solution {
 public:
     int numIdenticalPairs(vector<int>& nums) {
         int count = 0;
-        map<int, int> tempMap;
+        int arr[101] = {0};
         
         for (int i = 0; i < nums.size(); ++i) {
-            map<int, int>::iterator iter = tempMap.find(nums[i]);
-            map<int, int>::iterator endIter = tempMap.end();
+            arr[nums[i]]++;
             
-            if (iter != endIter) {
-                iter->second++;
-                count += iter->second - 1;
-            }
-            else {
-                tempMap.insert(pair<int, int>(nums[i], 1));
-            }
+            count += arr[nums[i]] - 1;
         }
         
         return count;
